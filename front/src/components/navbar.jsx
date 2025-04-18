@@ -1,6 +1,8 @@
 import LinkedIn from '../assets/linkedin.png'
 import Github from '../assets/github.png'
 import Indeed from '../assets/Indeed-Symbol.png'
+import { RiLinkedinBoxFill } from "react-icons/ri"
+import { RiGithubFill } from "react-icons/ri";
 
 const Navbar = () => {
   return (
@@ -12,19 +14,9 @@ const Navbar = () => {
           </a>
         </div>
         <div className="m-8 flex items-center justify-center gap-3 text-2xl">
-          <a href="https://www.linkedin.com/in/rouen-padilla"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn">
-            <img src={LinkedIn} alt="LinkedIn" className="h-8 w-9" />
-          </a>
+          < RiLinkedinBoxFill className="text-4xl text-white" />
 
-          <a href="https://www.linkedin.com/in/rouen-padilla"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Github">
-            <img src={Github} alt="LinkedIn" className="h-7 w-8" />
-          </a>
+          <RiGithubFill className="text-4xl text-white" />
 
         </div>
       </nav>

@@ -2,27 +2,50 @@ import { RiReactjsLine } from "react-icons/ri";
 import { DiHtml5 } from "react-icons/di";
 import { RiCss3Fill } from "react-icons/ri";
 import { RiJavascriptFill } from "react-icons/ri";
+import Mongodb from "../assets/mongodb.svg";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMysql } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 
 const skills = () => {
   return (
     <div className="pb-24">
-      <h2 className="my-10 text-center text-4xl">Languages & Skills</h2>
+      <h2 className="my-10 text-center text-4xl">Tools & Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div>
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <RiReactjsLine className="text-6xl text-cyan-400" />
         </div>
 
         <div className="p-4">
-          <DiHtml5 className="text-7xl text-orange-500" />
+          <DiHtml5 className="text-6xl text-orange-500" />
         </div>
 
         <div className="p-0">
-          <RiCss3Fill className="text-7xl text-blue-500" />
+          <RiCss3Fill className="text-6xl text-blue-500" />
         </div>
 
         <div className="p-3">
-          <RiJavascriptFill className="text-7xl text-yellow-400" />
+          <RiJavascriptFill className="text-6xl text-yellow-400" />
         </div>
+
+        <div className="p-3">
+          <RiTailwindCssFill className="text-6xl text-cyan-300" />
+        </div>
+
+        <div className="p-3">
+          <SiMysql className="text-6xl text-sky-700" />
+        </div>
+
+        <div className="p-3">
+          <SiMongodb className="text-6xl text-green-600" />
+        </div>
+
+        <div className="p-3">
+          <FaNode className="text-6xl text-green-500" />
+        </div>
+
       </div>
     </div>
   )

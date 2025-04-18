@@ -1,11 +1,33 @@
+import LinkedIn from '../assets/linkedin.png'
+import Github from '../assets/github.png'
+import Indeed from '../assets/Indeed-Symbol.png'
+
 const Navbar = () => {
   return (
     <>
-      <header className="overflow-x-hidden text-stone-300 antialiased">
-        <div className="fixed inset-0 -z-10">
-          <div class="relative h-full w-full bg-black"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div><div class="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div></div>
+      <nav className="flex items-center justify-between py-6">
+        <div className="flex flex-shrink-0 items-center">
+          <a href="/" aria-label="Home">
+            <p className="font-semibold text-xl mx-2">Rorupabi's Portfolio</p>
+          </a>
         </div>
-      </header>
+        <div className="m-8 flex items-center justify-center gap-3 text-2xl">
+          <a href="https://www.linkedin.com/in/rouen-padilla"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn">
+            <img src={LinkedIn} alt="LinkedIn" className="h-8 w-8" />
+          </a>
+
+          <a href="https://www.linkedin.com/in/rouen-padilla"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Github">
+            <img src={Github} alt="LinkedIn" className="h-7 w-7" />
+          </a>
+
+        </div>
+      </nav>
     </>
   )
 }

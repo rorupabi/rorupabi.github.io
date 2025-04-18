@@ -5,7 +5,7 @@ import Indeed from '../assets/Indeed-Symbol.png'
 const Navbar = () => {
   return (
     <>
-      <nav className="flex items-center justify-between py-6">
+      <nav className="flex items-center justify-between py-6 sm:mb-[-3rem] lg:mb-4">
         <div className="flex flex-shrink-0 items-center">
           <a href="/" aria-label="Home">
             <p className="font-semibold text-xl mx-2">Rorupabi's Portfolio</p>

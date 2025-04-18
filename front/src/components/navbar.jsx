@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between py-6 sm:mb-[-3rem] lg:mb-4">
         <div className="flex flex-shrink-0 items-center">
           <a href="/" aria-label="Home">
-            <p className="font-semibold text-xl mx-2">Rorupabi's Portfolio</p>
+            <p className="font-semibold text-xl mx-2">Rouen Padilla's Portfolio</p>
           </a>
         </div>
         <div className="m-8 flex items-center justify-center gap-3 text-2xl">
@@ -16,14 +16,14 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn">
-            <img src={LinkedIn} alt="LinkedIn" className="h-8 w-8" />
+            <img src={LinkedIn} alt="LinkedIn" className="h-8 w-9" />
           </a>
 
           <a href="https://www.linkedin.com/in/rouen-padilla"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Github">
-            <img src={Github} alt="LinkedIn" className="h-7 w-7" />
+            <img src={Github} alt="LinkedIn" className="h-7 w-8" />
           </a>
 
         </div>

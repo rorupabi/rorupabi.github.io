@@ -9,9 +9,9 @@ import { SiMongodb } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 
-const skills = () => {
+const Skills = () => {
   return (
-    <div className="pb-24">
+    <section id="skills" className="pb-24 pt-20 scroll-mt-24">
       <h2 className="my-10 text-center text-4xl">Tools & Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div>
@@ -45,10 +45,9 @@ const skills = () => {
         <div className="p-3">
           <FaNode className="text-6xl text-green-500" />
         </div>
-
       </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default skills
+export default Skills

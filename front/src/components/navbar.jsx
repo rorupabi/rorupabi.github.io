@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between py-8 sticky top-5 sm:top-2 md:top-4 bg-black/10 px-4 lg:px-8 md:px-8">
+      <nav className="flex items-center justify-between py-8 top-5 sm:top-2 md:top-4 bg-black/10 px-4 lg:px-8 md:px-8">
         <div className="flex flex-shrink-0 items-center">
           <a href="/" aria-label="Home">
             <p className="font-semibold text-xl mr-8">Padilla's Portfolio</p>

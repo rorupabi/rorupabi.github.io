@@ -52,7 +52,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "ReactJS", "TailwindCSS", "MySQL", "Node.js"],
   },
   {
-    title: "Subscription Based",
+    title: "Restaurant Based Page",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
@@ -63,7 +63,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "ReactJS", "TailwindCSS",],
   },
 ];
 

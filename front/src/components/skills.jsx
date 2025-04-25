@@ -15,27 +15,27 @@ const Skills = () => {
       <h2 className="my-10 text-center text-4xl">Tools & Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div>
-          <RiReactjsLine className="text-6xl text-cyan-400" />
+          <RiReactjsLine className="text-6xl hover:scale-120 duration-300 text-cyan-400" />
         </div>
 
         <div className="p-4">
-          <DiHtml5 className="text-6xl text-orange-500" />
+          <DiHtml5 className="text-6xl hover:scale-120 duration-300 text-orange-500" />
         </div>
 
         <div className="p-0">
-          <RiCss3Fill className="text-6xl text-blue-500" />
+          <RiCss3Fill className="text-6xl hover:scale-120 duration-300 text-blue-500" />
         </div>
 
         <div className="p-3">
-          <RiJavascriptFill className="text-6xl text-yellow-400" />
+          <RiJavascriptFill className="text-6xl hover:scale-120 duration-300 text-yellow-400" />
         </div>
 
         <div className="p-3">
-          <RiTailwindCssFill className="text-6xl text-cyan-300" />
+          <RiTailwindCssFill className="text-6xl hover:scale-120 duration-300 text-cyan-300" />
         </div>
 
         <div className="p-3">
-          <SiMysql className="text-6xl text-sky-700" />
+          <SiMysql className="text-6xl hover:scale-120 duration-300 text-sky-700" />
         </div>
 
         <div className="p-3">

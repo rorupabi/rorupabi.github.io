@@ -39,11 +39,11 @@ const Skills = () => {
         </div>
 
         <div className="p-3">
-          <SiMongodb className="text-6xl text-green-600" />
+          <SiMongodb className="text-6xl hover:scale-120 duration-300 text-green-600" />
         </div>
 
         <div className="p-3">
-          <FaNode className="text-6xl text-green-500" />
+          <FaNode className="text-6xl hover:scale-120 duration-300 text-green-500" />
         </div>
       </div>
     </section>

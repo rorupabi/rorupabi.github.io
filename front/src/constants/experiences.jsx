@@ -29,38 +29,37 @@ export const EXPERIENCES = [
     technologies: ["Figma", "NpmJS"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2023 - Present",
+    role: "Computer Building & Sales",
+    company: "Self-Employed",
+    description: `Experienced in assembling and selling custom-built PCs across various form factors, including Small Form Factor (SFF), Micro-ATX (mATX), and ATX, tailored to diverse performance needs. Built and configured systems using both Intel and AMD Ryzen platforms, optimizing for gaming, productivity, and professional workloads. Successfully delivered custom PCs to clients across multiple locations, offering technical support, troubleshooting, and upgrade guidance. Developed strong expertise in selecting high-quality components for both performance-oriented and budget-conscious builds. Managed pricing, sourcing, and logistics, operating a profitable buy-and-sell business while maintaining a solid reputation as a reliable and trustworthy seller. Well-versed in CPUs, GPUs, and monitor types including FHD, QHD, and OLED.`,
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Timetabling Management for CEU Makati",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "TailwindCSS", "Node.js", "MySQL"],
   },
   {
-    title: "Task Management App",
+    title: "CBZN DTR Page",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS", "ReactJS", "TailwindCSS", "MySQL", "Node.js"],
   },
   {
-    title: "Portfolio Website",
+    title: "Subscription Based",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "24VR Page",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
@@ -69,7 +68,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "50 Chico St, FOURTH DISTRICT, Taguig, Metro Manila",
+  phoneNo: "+63 976 593 9867",
+  email: "rouenpads@gmail.com",
 };

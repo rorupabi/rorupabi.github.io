@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import BodySection from './components/bodySection'
 import Skills from './components/skills'
 import Projects from './components/projects'
+import Experience from './components/experience'
 import './App.css'
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <BodySection />
           <Skills />
           <Projects />
+          <Experience />
         </div>
       </div>
     </>

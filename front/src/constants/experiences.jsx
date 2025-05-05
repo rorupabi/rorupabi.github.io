@@ -38,37 +38,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Timetabling Management for CEU Makati",
+    title: "Automated Timetabling Management for CEU Makati",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "TailwindCSS", "Node.js", "MySQL"],
+      "A fully functional Automated Timetabling Management with Backtracking Algorithm and responsive UI/UX.",
+    technologies: ["HTML", "CSS3", "React", "TailwindCSS", "Node.js", "MySQL"],
   },
   {
-    title: "CBZN DTR Page",
+    title: "CBZN Perspective co. Daily Time Record Page",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "ReactJS", "TailwindCSS", "MySQL", "Node.js"],
+    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS", "MySQL", "Node.js"],
   },
   {
-    title: "Restaurant Based Page",
+    title: "Burger Buddy Restaurant Based Page",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "ReactJS", "TailwindCSS", "NodeJS"],
+      "A personal portfolio website showcasing projects and skills",
+    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS", "NodeJS"],
   },
   {
     title: "24VR Page",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "ReactJS", "TailwindCSS",],
+      "A personal portfolio website showcasing projects and skills",
+    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS",],
   },
 ];
 
 export const CONTACT = {
-  address: "50 Chico St, FOURTH DISTRICT, Taguig, Metro Manila",
+  address: "Taguig, Metro Manila",
   phoneNo: "+63 976 593 9867",
   email: "rouenpads@gmail.com",
 };

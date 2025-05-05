@@ -2,7 +2,7 @@ import { PROJECTS } from "../constants/works.jsx"
 
 const Projects = () => {
   return (
-    <section className="py-16 bg-gray-900 p-8" id="projects">
+    <section className="py-16 p-8" id="projects">
       <div className="container mx-auto px-4">
         <h2 className="mb-12 text-center text-4xl font-bold text-white">Projects</h2>
         

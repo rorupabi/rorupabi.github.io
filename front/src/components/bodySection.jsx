@@ -7,7 +7,6 @@ const BodySection = () => {
     <section id='hero' className='min-h-screen flex items-center'>
       <div className='container mx-auto px-6'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-center'>
-          {/* Left Content Side */}
           <div className='flex flex-col justify-center text-center lg:text-left'>
             <p className='text-indigo-400 font-medium mb-3'>Hello, I'm</p>
             <h1 className='text-6xl font-bold mb-2 text-white'>

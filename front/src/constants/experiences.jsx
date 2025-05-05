@@ -1,6 +1,6 @@
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png;
+import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 
 export const HERO_CONTENT = `I am an undergraduate Computer Science student passionate about Programming. With a strong foundation in Web Development & Technology, I excel in creating and enhancing websites. My team management, problem-solving, and communication skills enable me to thrive in collaborative environments and tackle challenges effectively. Committed to continuous learning, I am very eager to expand my experience and share my knowledge to the industry.`;

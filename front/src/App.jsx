@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import BodySection from './components/bodySection'
 import Skills from './components/skills'
+import Projects from './components/projects'
 import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <div className="container mx-auto px-8">
           <BodySection />
           <Skills />
+          <Projects />
         </div>
       </div>
     </>

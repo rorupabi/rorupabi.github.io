@@ -1,34 +1,68 @@
 import React from 'react'
 import ProfilePic from '../assets/profilepic.jpg'
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
-const bodySection = () => {
+const BodySection = () => {
   return (
-    <section id='about'>
-      <div className='pb-4 lg:mb-36'>
-        <div className='flex flex-wrap lg:flex-row-reverse'>
-          <div className="w-full lg:w-1/2">
-            <div className='flex justify-center items-center h-full'>
+    <section id='hero' className='min-h-screen flex items-center'>
+      <div className='container mx-auto px-6'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-center'>
+          {/* Left Content Side */}
+          <div className='flex flex-col justify-center text-center lg:text-left'>
+            <p className='text-indigo-400 font-medium mb-3'>Hello, I'm</p>
+            <h1 className='text-6xl font-bold mb-2 text-white'>
+              Rouen Padilla
+            </h1>
+            <h2 className='bg-gradient-to-r from-indigo-300 to-violet-500 bg-clip-text text-3xl font-semibold text-transparent mb-6'>
+              Junior Front-end Developer
+            </h2>
+            
+            <p className='text-lg text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0'>
+              Computer Science graduate with expertise in web development, specializing in
+              React, JavaScript, and Tailwind CSS. Skilled in API integration and backend
+              technologies including MySQL, Node, and Java. I combine strong technical
+              knowledge with leadership and problem-solving skills to deliver structured solutions
+              to complex challenges.
+            </p>
+            
+            <div className='flex flex-wrap gap-4 mb-8 justify-center lg:justify-start'>
+              <a 
+                href="https://www.canva.com/design/DAGY42H07Tg/hgU1RlZ5WS0EBSiF3gBhkA/view"
+                target='_blank'
+                rel='noopener noreferrer'
+                className='bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full transition-all duration-300 font-medium'
+              >
+                View Resume
+              </a>
+              <a 
+                href="#projects" 
+                className='bg-transparent hover:bg-gray-800 text-white border border-gray-600 px-6 py-3 rounded-full transition-all duration-300 font-medium'
+              >
+                View Projects
+              </a>
+            </div>
+            
+            <div className='flex gap-6 justify-center lg:justify-start'>
+              <a href="https://github.com/rorupabi" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl">
+                <FaGithub />
+              </a>
+              <a href="https://www.linkedin.com/in/rouen-padilla" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl">
+                <FaLinkedin />
+              </a>
+              <a href="mailto:rouenpads@gmail.com" className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl">
+                <FaEnvelope />
+              </a>
+            </div>
+          </div>
+          
+          <div className='flex justify-center'>
+            <div className='relative max-w-md w-full'>
+              <div className='absolute inset-0 rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-70 blur p-1'></div>
               <img
                 src={ProfilePic}
                 alt="Rouen Padilla"
-                className='p-4 sm:p-8 md:p-10 lg:p-12 mx-auto md:mt-16 lg:mt-12'
+                className='relative rounded-2xl w-full h-full object-cover'
               />
-            </div>
-          </div>
-          <div className='w-full lg:w-1/2 sm:mt-20 lg:mt-40 '>
-            <div className='flex flex-col items-center lg:items-start mt-10'>
-              <h2 className='pb-2 sm:text-3xl tracking-tighter lg:text-6xl mb-1'>Rouen Padilla</h2>
-              <span className='bg-gradient-to-r font-semibold from-stone-300 to-violet-500 bg-clip-text text-3xl tracking-tight text-transparent'>Front-end Developer</span>
-              <p className='my-2 max-w-lgh py-4 text-2xl font-light leading-relaxed tracking-tighter text-start'>
-                I am a graduate of Computer Science with a strong passion for programming and a solid foundation in front-end development, including ReactJs, JavaScript, and Tailwind CSS. My academic journey has equipped me to effectively manipulate websites and integrate APIs, while my backend skills extend to working with MySQL, Node, and Java. I take pride in my leadership and problem-solving abilities, especially in collaborative environments where I bring logic and structure to complex challenges. I am committed to continuous learning and expanding my experience in the tech industry.
-              </p>
-              <a href="https://www.canva.com/design/DAGY42H07Tg/hgU1RlZ5WS0EBSiF3gBhkA/view?utm_content=DAGY42H07Tg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=heaab2b2388"
-                target='_blank'
-                rel='noopener noreferrer'
-                download
-                className='bg-white hover:bg-gray-400 duration-300 rounded-full p-4 text-md text-stone-800 mb-5 items-center justify-center'>
-                View Resume
-              </a>
             </div>
           </div>
         </div>
@@ -37,4 +71,4 @@ const bodySection = () => {
   )
 }
 
-export default bodySection
+export default BodySection

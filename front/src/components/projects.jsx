@@ -1,39 +1,47 @@
-import { PROJECTS } from "../constants/experiences.jsx"
+import { PROJECTS } from "../constants/works.jsx"
 
 const Projects = () => {
   return (
-    <div className='pb-4'>
-      <h2 className='my-20 text-center text-4xl'>Projects</h2>
-      <div>
-        {PROJECTS.map((project, index) => (
-          <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
-            <div className="w-full lg:w-1/4">
-              <img 
-                src={project.image} 
-                alt={project.title} 
-                width={250} 
-                height={250} 
-                className="mb-6 rounded"
-              />
-            </div>
-            <div className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-4 text-2xl font-semibold">{project.title}</h3>
-              <p className="mb-4 text-stone-400 text-lg">{project.description}</p>
-              <div className="flex flex-wrap gap-1">
-                {project.technologies.map((tech, index) => (
-                  <span 
-                    key={index} 
-                    className="rounded px-3 py-1 text-sm mr-2 bg-stone-800 p-2 font-medium text-stone-300 items-center"
-                  >
-                    {tech}
-                  </span>
-                ))}
+    <section className="py-16 bg-gray-900 p-8" id="projects">
+      <div className="container mx-auto px-4">
+        <h2 className="mb-12 text-center text-4xl font-bold text-white">Projects</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {PROJECTS.map((project, index) => (
+            <div 
+              key={index} 
+              className="bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:translate-y-[-5px]"
+            >
+              <div className="relative h-64 overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                />
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-semibold text-white mb-3">{project.title}</h3>
+                <p className="text-stone-400 mb-6 text-start line-clamp-3 hover:line-clamp-none transition-all duration-300">
+                  {project.description}
+                </p>
+                
+                <div className="flex flex-wrap gap-2 mt-4">
+                  {project.technologies.map((tech, techIndex) => (
+                    <span
+                      key={techIndex}
+                      className="rounded-full px-3 py-1 text-sm bg-slate-700 text-stone-300 inline-flex items-center"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 

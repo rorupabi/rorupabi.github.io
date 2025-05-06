@@ -25,7 +25,6 @@ export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "UI/UX Designer",
-    company: "(Centro Escolar University of Makati)",
     description: `Crafted minimalist, user-focused designs for two web development projects using Figma, emphasizing modern aesthetics and intuitive user experiences. Transformed creative concepts into polished, visually engaging designs that enhanced overall usability and appeal. Collaborated closely with team members to refine interfaces and ensure alignment with both project goals and user needs.`,
     technologies: ["Figma", "React Icons","Google Icons"],
   },
@@ -33,7 +32,14 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Computer Building & Sales",
     company: "Self-Employed",
-    description: `Experienced in assembling and selling custom-built PCs across various form factors, including Small Form Factor (SFF), Micro-ATX (mATX), and ATX, tailored to diverse performance needs. Built and configured systems using both Intel and AMD Ryzen platforms, optimizing for gaming, productivity, and professional workloads. Successfully delivered custom PCs to clients across multiple locations, offering technical support, troubleshooting, and upgrade guidance. Developed strong expertise in selecting high-quality components for both performance-oriented and budget-conscious builds. Managed pricing, sourcing, and logistics, operating a profitable buy-and-sell business while maintaining a solid reputation as a reliable and trustworthy seller. Well-versed in CPUs, GPUs, and monitor types including FHD, QHD, and OLED.`,
+    description: `Experienced in assembling and selling custom-built PCs 
+    across various form factors, including Small Form Factor (SFF), Micro-ATX (mATX),
+     and ATX, tailored to diverse performance needs. Built and configured systems using 
+     both Intel and AMD Ryzen platforms, optimizing for gaming, productivity, and 
+     professional workloads. Successfully delivered custom PCs to clients across multiple locations,
+     offering technical support, troubleshooting, and upgrade guidance. 
+     Developed strong expertise in selecting high-quality components for both performance-oriented and budget-conscious builds. 
+      Well-versed in CPUs, GPUs, and monitor types including FHD, QHD, and OLED.`,
   },
 ];
 

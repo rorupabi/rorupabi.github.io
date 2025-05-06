@@ -11,22 +11,23 @@ export const EXPERIENCES = [
   {
     year: "2025 - Present",
     role: "Intern Web Developer",
-    company: "CBZN Perspective.",
+    company: "CBZN Perspective Co.",
     description: `Led frontend development using ReactJS and TailwindCSS, creating accessible designs that strike a balance between functionality and aesthetics. Utilized a variety of npm packages with JavaScript to enhance interactivity and overall frontend performance. Prioritized responsive, mobile-first design and ensured cross-browser compatibility for optimal user experience. Consistently delivered high-quality solutions, earning trust and recognition for reliability and attention to detail.`,
     technologies: ["Javascript", "React.js", "TailwindCSS", "NodeJS", "mongoDB"],
   },
   {
-    year: "2023 - Present",
-    role: "Web Developer (CEU Makati)",
-    description: `Designed and developed a responsive website using the MERN stack and Vanilla JavaScript, ensuring smooth integration between frontend and backend systems. Leveraged NoSQL databases for efficient data handling and implemented responsive layouts with TailwindCSS, custom sizing, and adaptive breakpoints. Integrated APIs using Axios to streamline system communication and delivered the project on time, maintaining high performance and functionality standards throughout.`,
-    technologies: ["HTML", "CSS", "ReactJS", "JavaScript", "mySQL"],
+    year: "2023 - 2025",
+    role: "Web Developer",
+    company: "(Centro Escolar University of Makati)",
+    description: `Designed and developed a responsive website using the MERN stack and Vanilla JavaScript, ensuring smooth integration between frontend and backend systems. Leveraged MySQL databases for efficient data handling and implemented responsive layouts with TailwindCSS, custom sizing, and adaptive breakpoints. Integrated APIs using Axios to give a faster and easier system communication and delivered the project on time, maintaining high performance and functionality standards throughout.`,
+    technologies: ["HTML", "CSS", "ReactJS", "JavaScript", "MySQL"],
   },
   {
     year: "2023 - Present",
     role: "UI/UX Designer",
-    company: "CEU Makati",
+    company: "(Centro Escolar University of Makati)",
     description: `Crafted minimalist, user-focused designs for two web development projects using Figma, emphasizing modern aesthetics and intuitive user experiences. Transformed creative concepts into polished, visually engaging designs that enhanced overall usability and appeal. Collaborated closely with team members to refine interfaces and ensure alignment with both project goals and user needs.`,
-    technologies: ["Figma", "NpmJS"],
+    technologies: ["Figma", "React Icons","Google Icons"],
   },
   {
     year: "2023 - Present",
@@ -62,7 +63,7 @@ export const PROJECTS = [
     title: "24VR Page",
     image: project4,
     description:
-      "A personal portfolio website showcasing projects and skills",
+      "A personal portfolio website showcasing projects and skills. Subscription Based website, mainly focusing on frontend development.",
     technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS",],
   },
 ];

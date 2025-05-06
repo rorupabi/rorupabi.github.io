@@ -2,7 +2,7 @@ import Navbar from './components/Navbar'
 import BodySection from './components/bodySection'
 import Skills from './components/skills'
 import Projects from './components/projects'
-import Experience from './components/experience'
+import Experience from './components/experience'  
 import './App.css'
 
 function App() {
@@ -17,17 +17,17 @@ function App() {
           </div>
         </div>
 
+        {/**Navigation bar */}
         <div className="container mx-auto px-8">
           <Navbar />
         </div>
-
 
         {/* Content */}
         <div className="container mx-auto px-8">
           <BodySection />
           <Skills />
           <Projects />
-          <Experience />
+          <Experience/>
         </div>
       </div>
     </>

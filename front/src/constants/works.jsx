@@ -53,7 +53,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS", "MySQL", "Node.js"],
   },
   {
-    title: "Burger Buddy Restaurant Based Page",
+    title: "Burger Buddy",
     image: project3,
     description:
       "An interactive restaurant website for Burger Buddy featuring online ordering capabilities, real-time menu updates, and customer loyalty program integration. The responsive design provides seamless experiences across devices, while the customized CMS allows restaurant staff to easily update menu items, prices, and promotional offers without technical knowledge.",

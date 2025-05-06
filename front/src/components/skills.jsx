@@ -12,7 +12,7 @@ import { FaGitAlt } from "react-icons/fa";
 const Skills = () => {
   return (
     <section id="skills" className="pb-24 pt-20 scroll-mt-24">
-      <h2 className="my-10 text-center text-4xl">Tools & Technologies</h2>
+      <h2 className="my-10 text-center text-4xl text-stone-300">Tools & Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div>
           <RiReactjsLine className="text-6xl hover:scale-120 duration-300 text-cyan-400" />

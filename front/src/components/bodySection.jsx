@@ -48,7 +48,7 @@ const BodySection = () => {
               <a href="https://www.linkedin.com/in/rouen-padilla" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl">
                 <FaLinkedin />
               </a>
-              <a href="mailto:rouenpads@gmail.com" className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl">
+              <a href="mailto:rouenpads@gmail.com" alt="rouenpads@gmail.com" className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl">
                 <FaEnvelope />
               </a>
             </div>

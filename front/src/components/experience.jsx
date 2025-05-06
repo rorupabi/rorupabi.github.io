@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section id='experience' className='duration-300'>
     <div className='pb-4'>
-      <h2 className='my-20 text-center text-4xl'>Experience</h2>
+      <h2 className='my-20 text-center text-4xl text-stone-200'>Experience</h2>
       <div>
         {EXPERIENCES.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">

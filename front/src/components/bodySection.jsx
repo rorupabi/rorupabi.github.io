@@ -16,12 +16,11 @@ const BodySection = () => {
               Junior Front-end Developer
             </h2>
             
-            <p className='text-lg text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0'>
-              Computer Science graduate with expertise in web development, specializing in
-              React, JavaScript, and Tailwind CSS. Skilled in API integration and backend
-              technologies including MySQL, Node, and Java. I combine strong technical
-              knowledge with leadership and problem-solving skills to deliver structured solutions
-              to complex challenges.
+            <p className='text-lg text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0 text-start'>
+            I'm a Computer Science graduate focused on frontend development, with hands-on experience in ReactJS, JavaScript ES6+, and Tailwind CSS. 
+            I build responsive, user-friendly interfaces and ensuring a flawless user experiences across different devices. 
+            While I specialize in the frontend, I’m also familiar with full-stack development, including API integration and backend tools like Node, MySQL, and Java. 
+            I bring strong problem-solving and leadership skills to every project I take on.
             </p>
             
             <div className='flex flex-wrap gap-4 mb-8 justify-center lg:justify-start'>

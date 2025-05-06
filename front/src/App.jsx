@@ -3,7 +3,8 @@ import BodySection from './components/bodySection'
 import Skills from './components/skills'
 import Projects from './components/projects'
 import Experience from './components/experience'
-import Contact from './components/contact'  
+import Contact from './components/contact'
+import GoBackTop from './components/goBackTop'
 import './App.css'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Projects />
           <Experience/>
           <Contact/>
+          <GoBackTop/>
         </div>
       </div>
     </>

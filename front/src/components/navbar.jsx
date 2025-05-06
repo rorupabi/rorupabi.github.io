@@ -15,7 +15,6 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      // Close menu if click is outside menu AND outside the hamburger button
       if (
         menuRef.current &&
         !menuRef.current.contains(event.target) &&
@@ -25,13 +24,10 @@ const Navbar = () => {
         setIsMenuOpen(false);
       }
     };
-
-    // Add event listener when menu is open
     if (isMenuOpen) {
       document.addEventListener('mousedown', handleClickOutside);
     }
 
-    // Cleanup
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
@@ -43,7 +39,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between py-8 top-5 sm:top-2 md:top-4 bg-black/10 px-4 lg:px-8 md:px-8">
         <div className="flex flex-shrink-0 items-center">
           <a href="/" aria-label="Home">
-            <p className="font-semibold text-xl mr-8">Padilla's Portfolio</p>
+            <p className="font-semibold text-xl mr-8">Rouen's Portfolio</p>
           </a>
         </div>
 

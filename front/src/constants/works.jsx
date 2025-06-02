@@ -48,6 +48,7 @@ export const PROJECTS = [
     description:
       "An automated timetabling system for Centro Escolar University Makati using backtracking algorithms to efficiently allocate classrooms, faculty, and schedules. Reduces scheduling conflicts and administrative workload with an intuitive interface for easy timetable management.",
     technologies: ["HTML", "CSS3", "React", "TailwindCSS", "Node.js", "MySQL"],
+    url: "https://ease-scheduler.vercel.app/"
   },
   {
     title: "CBZN Perspective co. Daily Time Record Page",
@@ -60,8 +61,9 @@ export const PROJECTS = [
     title: "Burger Buddy",
     image: project3,
     description:
-      "An interactive restaurant website with online ordering, real-time menu updates, and loyalty program integration. Features responsive design and a custom CMS for easy menu management.",
+      "An interactive restaurant website with online ordering, real-time menu updates, and program integration, mainly focusing on frontend development.",
     technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS", "NodeJS"],
+    url: "https://food-app-project-six.vercel.app/"
   },
   {
     title: "24VR Page",
@@ -69,6 +71,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects and skills. Subscription Based website, mainly focusing on frontend development.",
     technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS",],
+    url: "https://24vrproj.vercel.app/"
   },
 ];
 

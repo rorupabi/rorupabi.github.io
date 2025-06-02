@@ -18,7 +18,7 @@ export const EXPERIENCES = [
   {
     year: "2023 - 2025",
     role: "Web Developer",
-    company: "(Centro Escolar University of Makati)",
+    company: "Centro Escolar University of Makati",
     description: `Designed and developed a responsive website using the MERN stack and Vanilla JavaScript, ensuring smooth integration between frontend and backend systems. Leveraged MySQL databases for efficient data handling and implemented responsive layouts with TailwindCSS, custom sizing, and adaptive breakpoints. Integrated APIs using Axios to give a faster and easier system communication and delivered the project on time, maintaining high performance and functionality standards throughout.`,
     technologies: ["HTML", "CSS", "ReactJS", "JavaScript", "MySQL"],
   },
@@ -31,21 +31,19 @@ export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Computer Building & Sales",
-    company: "Self-Employed",
+    company: "Freelancing",
     description: `Experienced in assembling and selling custom-built PCs 
     across various form factors, including Small Form Factor (SFF), Micro-ATX (mATX),
      and ATX, tailored to diverse performance needs. Built and configured systems using 
      both Intel and AMD Ryzen platforms, optimizing for gaming, productivity, and 
-     professional workloads. Successfully delivered custom PCs to clients across multiple locations,
-     offering technical support, troubleshooting, and upgrade guidance. 
-     Developed strong expertise in selecting high-quality components for both performance-oriented and budget-conscious builds. 
-      Well-versed in CPUs, GPUs, and monitor types including FHD, QHD, and OLED.`,
+     professional workloads. Developed strong expertise in selecting high-quality components for both performance-oriented and budget-conscious builds. 
+     Well-versed in CPUs, GPUs, and monitor types including FHD, QHD, and OLED.`,
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Automated Timetabling Management for CEU Makati",
+    title: "University Timetabling Website (CEU Makati)",
     image: project1,
     description:
       "A fully functional Automated Timetabling Management system developed for Centro Escolar University Makati that implements a Backtracking Algorithm to efficiently allocate classrooms, faculty, and course schedules. This system reduced scheduling conflicts decreased administrative workload by automating a previously manual process. The intuitive interface allows administrators to easily view, modify, and optimize timetables across departments while accommodating constraints such as faculty availability and room capacity.",

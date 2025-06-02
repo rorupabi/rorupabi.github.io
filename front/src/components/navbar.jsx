@@ -50,7 +50,6 @@ const Navbar = () => {
               <a href="#skills" className="hover:text-gray-400 transition-colors">Skills</a>
               <a href="#projects" className="hover:text-gray-400 transition-colors">Projects</a>
               <a href="#experience" className="hover:text-gray-400 transition-colors">Experience</a>
-              <a href="#education" className="hover:text-gray-400 transition-colors">Education</a>
               <a href="#contact" className="hover:text-gray-400 transition-colors">Contact</a>
             </li>
           </ul>

@@ -17,9 +17,9 @@ const BodySection = () => {
             </h2>
             
             <p className='text-lg text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0 text-start'>
-            I'm a Computer Science graduate focused on frontend development, with hands-on experience in ReactJS, JavaScript ES6+, and Tailwind CSS. 
+            I'm a Computer Science graduate focused on frontend development, with hands-on experience in ReactJS, JavaScript ES6+, and Python. 
             I build responsive, user-friendly interfaces and ensuring a flawless user experiences across different devices. 
-            While I specialize in the frontend, I’m also familiar with full-stack development, including API integration and backend tools like Node, MySQL, and Java. 
+            While I specialize in the frontend, I’m also familiar with full-stack development, including API integration, App Development, and backend tools like NodeJS, Python, and Java. 
             I bring strong problem-solving and leadership skills to every project I take on.
             </p>
             

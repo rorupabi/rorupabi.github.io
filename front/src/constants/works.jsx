@@ -46,21 +46,21 @@ export const PROJECTS = [
     title: "University Timetabling Website (CEU Makati)",
     image: project1,
     description:
-      "A fully functional Automated Timetabling Management system developed for Centro Escolar University Makati that implements a Backtracking Algorithm to efficiently allocate classrooms, faculty, and course schedules. This system reduced scheduling conflicts decreased administrative workload by automating a previously manual process. The intuitive interface allows administrators to easily view, modify, and optimize timetables across departments while accommodating constraints such as faculty availability and room capacity.",
+      "An automated timetabling system for Centro Escolar University Makati using backtracking algorithms to efficiently allocate classrooms, faculty, and schedules. Reduces scheduling conflicts and administrative workload with an intuitive interface for easy timetable management.",
     technologies: ["HTML", "CSS3", "React", "TailwindCSS", "Node.js", "MySQL"],
   },
   {
     title: "CBZN Perspective co. Daily Time Record Page",
     image: project2,
     description:
-      "A comprehensive time tracking application built for CBZN Perspective company that streamlines employee attendance monitoring and project hour allocation. Features include automated time logging, approval workflows for managers, leave management integration, and detailed reporting capabilities. The system supports both in-office and remote work tracking, with visual analytics dashboards that provide insights into productivity patterns and project resource allocation.",
+      "A comprehensive Daily Time Record (DTR) application for CBZN Perspective featuring automated logging, manager approval workflows, and detailed analytics. Supports both in-office and remote work with visual dashboards for productivity insights.",
     technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS", "MySQL", "Node.js"],
   },
   {
     title: "Burger Buddy",
     image: project3,
     description:
-      "An interactive restaurant website for Burger Buddy featuring online ordering capabilities, real-time menu updates, and customer loyalty program integration. The responsive design provides seamless experiences across devices, while the customized CMS allows restaurant staff to easily update menu items, prices, and promotional offers without technical knowledge.",
+      "An interactive restaurant website with online ordering, real-time menu updates, and loyalty program integration. Features responsive design and a custom CMS for easy menu management.",
     technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS", "NodeJS"],
   },
   {

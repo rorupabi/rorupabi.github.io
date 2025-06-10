@@ -7,6 +7,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
+import { SiLaravel } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 
 const Skills = () => {
@@ -32,6 +33,10 @@ const Skills = () => {
 
         <div className="p-3">
           <RiTailwindCssFill className="text-6xl hover:scale-120 duration-300 text-cyan-300" />
+        </div>
+
+        <div className="p-3">
+          <SiLaravel className="text-5xl hover:scale-120 duration-300 text-red-500" />
         </div>
 
         <div className="p-3">

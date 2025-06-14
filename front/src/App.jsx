@@ -1,3 +1,4 @@
+import Navbar from './components/navbar'
 import BodySection from './components/bodySection'
 import Skills from './components/skills'
 import Projects from './components/projects'

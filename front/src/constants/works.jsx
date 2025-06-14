@@ -9,10 +9,10 @@ export const ABOUT_TEXT = `I also excel in communication and enjoy engaging with
 
 export const EXPERIENCES = [
   {
-    year: "2025 - Present",
+    year: "2025",
     role: "Intern Web Developer",
     company: "CBZN Perspective Co.",
-    description: `Led frontend development using ReactJS and TailwindCSS, creating accessible designs that strike a balance between functionality and aesthetics. Utilized a variety of npm packages with JavaScript to enhance interactivity and overall frontend performance. Prioritized responsive, mobile-first design and ensured cross-browser compatibility for optimal user experience. Consistently delivered high-quality solutions, earning trust and recognition for reliability and attention to detail.`,
+    description: `Led frontend development using Javascript, ReactJS, and TailwindCSS, creating accessible designs that strike a balance between functionality and aesthetics. Utilized a variety of npm packages with JavaScript to enhance interactivity and overall frontend performance. Prioritized responsive, mobile-first design and ensured cross-browser compatibility for optimal user experience. Consistently delivered high-quality solutions, earning trust and recognition for reliability and attention to detail.`,
     technologies: ["Javascript", "React.js", "TailwindCSS", "NodeJS", "mongoDB"],
   },
   {
@@ -25,7 +25,7 @@ export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "UI/UX Designer",
-    description: `Crafted minimalist, user-focused designs for two web development projects using Figma, emphasizing modern aesthetics and intuitive user experiences. Transformed creative concepts into polished, visually engaging designs that enhanced overall usability and appeal. Collaborated closely with team members to refine interfaces and ensure alignment with both project goals and user needs.`,
+    description: `Crafted minimalist, user-focused designs for two web development projects using Figma, emphasizing modern aesthetics and intuitive user experiences. Transformed creative concepts into polished, visually engaging designs that enhanced overall usability and appeal.`,
     technologies: ["Figma", "React Icons","Google Icons"],
   },
   {
@@ -47,7 +47,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "An automated timetabling system for Centro Escolar University Makati using backtracking algorithms to efficiently allocate classrooms, faculty, and schedules. Reduces scheduling conflicts and administrative workload with an intuitive interface for easy timetable management.",
-    technologies: ["HTML", "CSS3", "React", "TailwindCSS", "Node.js", "MySQL"],
+    technologies: ["HTML", "CSS3", "React","JavaScript", "TailwindCSS", "Node.js", "MySQL", "Aiven"],
     url: "https://ease-scheduler.vercel.app/"
   },
   {
@@ -55,14 +55,14 @@ export const PROJECTS = [
     image: project2,
     description:
       "A comprehensive Daily Time Record (DTR) application for CBZN Perspective featuring automated logging, manager approval workflows, and detailed analytics. Supports both in-office and remote work with visual dashboards for productivity insights.",
-    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS", "MySQL", "Node.js"],
+    technologies: ["HTML", "CSS3", "ReactJS","JavaScript", "TailwindCSS", "MySQL", "Node.js","Digital Ocean"],
   },
   {
     title: "Burger Buddy",
     image: project3,
     description:
       "An interactive restaurant website with online ordering, real-time menu updates, and program integration, mainly focusing on frontend development.",
-    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS", "NodeJS"],
+    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS", "NodeJS","JavaScript"],
     url: "https://food-app-project-six.vercel.app/"
   },
   {
@@ -70,7 +70,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A personal portfolio website showcasing projects and skills. Subscription Based website, mainly focusing on frontend development.",
-    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS",],
+    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS","JavaScript"],
     url: "https://24vrproj.vercel.app/"
   },
 ];

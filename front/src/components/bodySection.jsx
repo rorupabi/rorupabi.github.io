@@ -8,19 +8,20 @@ const BodySection = () => {
       <div className='container mx-auto px-6'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-center'>
           <div className='flex flex-col justify-center text-center lg:text-left'>
-            <p className='text-indigo-400 font-medium mb-3'>Hello, I'm</p>
+            <p className='text-indigo-400 font-medium'>Hello, I'm</p>
             <h1 className='text-6xl font-bold mb-2 text-white'>
               Rouen Padilla
             </h1>
             <h2 className='bg-gradient-to-r from-indigo-300 to-violet-500 bg-clip-text text-3xl font-semibold text-transparent mb-6'>
-              Junior Front-end Developer
+              Aspiring Web Developer
             </h2>
             
             <p className='text-lg text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0 text-start'>
-            I'm a Computer Science graduate focused on frontend development, with hands-on experience in ReactJS, JavaScript ES6+, and Python. 
-            I build responsive, user-friendly interfaces and ensuring a flawless user experiences across different devices. 
-            While I specialize in the frontend, I’m also familiar with full-stack development, including API integration, App Development, and backend tools like NodeJS, Python, and Java. 
-            I bring strong problem-solving and leadership skills to every project I take on.
+            I'm a Computer Science graduate passionate about creating beautiful, user-friendly web experiences. 
+            With a strong foundation in ReactJS, JavaScript, and responsive design, I build interfaces that function seamlessly across all devices.
+            As a recent graduate, I'm eager to grow across the full stack web development while currently focusing on frontend development. 
+            I have experience with both frontend and backend technologies including JavaScript (Node.js) and Java. 
+            I bring fresh perspectives, strong problem-solving skills, and enthusiasm for learning to every project.
             </p>
             
             <div className='flex flex-wrap gap-4 mb-8 justify-center lg:justify-start'>
@@ -40,7 +41,7 @@ const BodySection = () => {
               </a>
             </div>
             
-            <div className='flex gap-6 justify-center lg:justify-start'>
+            <div className='flex gap-5 pl-2 justify-center lg:justify-start'>
               <a href="https://github.com/rorupabi" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300 text-2xl">
                 <FaGithub />
               </a>

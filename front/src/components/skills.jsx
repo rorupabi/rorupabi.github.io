@@ -7,12 +7,13 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
+import { SiVercel } from "react-icons/si";
 import { SiLaravel } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <section id="skills" className="pb-24 pt-20 scroll-mt-24">
+    <section id="skills" className="pb-24 pt-10 scroll-mt-24">
       <h2 className="my-10 text-center text-4xl text-stone-300">Tools & Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div>
@@ -50,6 +51,10 @@ const Skills = () => {
         <div className="p-3">
           <FaNode className="text-6xl hover:scale-120 duration-300 text-green-500" />
         </div>
+
+        <div>
+        <SiVercel className="text-5xl hover:scale-120 duration-300 text-white bg-black border-2xl border-black rounded-xl" />
+      </div>
       </div>
     </section>
   );

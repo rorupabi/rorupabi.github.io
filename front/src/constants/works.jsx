@@ -18,7 +18,7 @@ export const EXPERIENCES = [
   {
     year: "2023 - 2025",
     role: "Web Developer",
-    company: "Centro Escolar University of Makati",
+    company: "University Timetabling Website (CEU Makati)",
     description: `Designed and developed a responsive website using the MERN stack and Vanilla JavaScript, ensuring smooth integration between frontend and backend systems. Leveraged MySQL databases for efficient data handling and implemented responsive layouts with TailwindCSS, custom sizing, and adaptive breakpoints. Integrated APIs using Axios to give a faster and easier system communication and delivered the project on time, maintaining high performance and functionality standards throughout.`,
     technologies: ["HTML", "CSS", "ReactJS", "JavaScript", "MySQL"],
   },

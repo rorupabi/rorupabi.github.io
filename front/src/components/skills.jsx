@@ -10,6 +10,7 @@ import { FaNode } from "react-icons/fa";
 import { SiVercel } from "react-icons/si";
 import { SiLaravel } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Skills = () => {
   return (
@@ -30,6 +31,10 @@ const Skills = () => {
 
         <div className="p-3">
           <RiJavascriptFill className="text-6xl hover:scale-120 duration-300 text-yellow-400" />
+        </div>
+
+        <div className="p-3">
+          <RiNextjsFill className="text-6xl hover:scale-120 duration-300 text-white" />
         </div>
 
         <div className="p-3">

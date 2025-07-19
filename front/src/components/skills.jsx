@@ -11,6 +11,8 @@ import { SiVercel } from "react-icons/si";
 import { SiLaravel } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
+import { TbBrandFramerMotion } from "react-icons/tb";
+import { FaJava } from 'react-icons/fa';
 
 const Skills = () => {
   return (
@@ -31,6 +33,10 @@ const Skills = () => {
 
         <div className="p-3">
           <RiJavascriptFill className="text-6xl hover:scale-120 duration-300 text-yellow-400" />
+        </div>
+
+        <div>
+          <FaJava className=" text-6xl hover:scale-120 duration-300 text-blue-400" />
         </div>
 
         <div className="p-3">
@@ -60,6 +66,11 @@ const Skills = () => {
         <div>
         <SiVercel className="text-5xl hover:scale-120 duration-300 text-white bg-black border-2xl border-black rounded-xl" />
       </div>
+
+      <div>
+          <TbBrandFramerMotion className="ml-2 text-6xl hover:scale-120 duration-300 text-purple-500" />
+        </div>
+
       </div>
     </section>
   );

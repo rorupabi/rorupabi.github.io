@@ -47,6 +47,10 @@ const Skills = () => {
           <RiTailwindCssFill className="text-6xl hover:scale-120 duration-300 text-cyan-300" />
         </div>
 
+        <div>
+          <TbBrandFramerMotion className="ml-2 text-6xl hover:scale-120 duration-300 text-purple-500" />
+        </div>
+
         <div className="p-3">
           <SiLaravel className="text-5xl hover:scale-120 duration-300 text-red-500" />
         </div>
@@ -66,10 +70,6 @@ const Skills = () => {
         <div>
         <SiVercel className="text-5xl hover:scale-120 duration-300 text-white bg-black border-2xl border-black rounded-xl" />
       </div>
-
-      <div>
-          <TbBrandFramerMotion className="ml-2 text-6xl hover:scale-120 duration-300 text-purple-500" />
-        </div>
 
       </div>
     </section>

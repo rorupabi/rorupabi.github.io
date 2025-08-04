@@ -97,7 +97,7 @@ const Navbar = () => {
             <motion.p 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="font-semibold text-xl mr-8 hover:text-gray-500 transition-colors duration-300"
+              className="font-semibold text-2xl mr-8 hover:text-gray-500 transition-colors duration-300"
             >
               Rouen's Portfolio
             </motion.p>

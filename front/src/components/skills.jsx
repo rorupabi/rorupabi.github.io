@@ -13,6 +13,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaJava } from 'react-icons/fa';
+import { FaVuejs } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -33,6 +34,10 @@ const Skills = () => {
 
         <div className="p-3">
           <RiJavascriptFill className="text-6xl hover:scale-120 duration-300 text-yellow-400" />
+        </div>
+
+        <div>
+          <FaVuejs className="text-6xl hover:scale-120 duration-300 text-green-400" />
         </div>
 
         <div>

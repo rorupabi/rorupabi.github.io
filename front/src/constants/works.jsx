@@ -23,8 +23,8 @@ export const EXPERIENCES = [
     technologies: ["HTML", "CSS", "ReactJS", "JavaScript", "MySQL"],
   },
   {
-    year: "2023 - Present",
-    role: "UI/UX Designer",
+    year: "2024",
+    role: "Web Designer/Figma Designer",
     description: `Crafted minimalist, user-focused designs for two web development projects using Figma, emphasizing modern aesthetics and intuitive user experiences. Transformed creative concepts into polished, visually engaging designs that enhanced overall usability and appeal.`,
     technologies: ["Figma", "React Icons","Google Icons"],
   },

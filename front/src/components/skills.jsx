@@ -14,6 +14,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaJava } from 'react-icons/fa';
 import { FaVuejs } from "react-icons/fa";
+import Daisyui  from "../assets/daisyui-removebg-preview.png";
 
 const Skills = () => {
   return (
@@ -50,6 +51,14 @@ const Skills = () => {
 
         <div className="p-3">
           <RiTailwindCssFill className="text-6xl hover:scale-120 duration-300 text-cyan-300" />
+        </div>
+
+        <div className="p-3">
+          <img 
+            src={Daisyui} 
+            alt="DaisyUI" 
+            className="w-16 h-16 hover:scale-120 duration-300" 
+          />
         </div>
 
         <div>

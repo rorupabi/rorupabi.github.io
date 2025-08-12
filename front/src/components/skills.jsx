@@ -57,7 +57,7 @@ const Skills = () => {
           <img 
             src={Daisyui} 
             alt="DaisyUI" 
-            className="w-16 h-16 hover:scale-120 duration-300" 
+            className="w-14 h-14 hover:scale-120 duration-300" 
           />
         </div>
 

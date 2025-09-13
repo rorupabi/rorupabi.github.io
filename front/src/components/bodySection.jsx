@@ -103,9 +103,9 @@ const BodySection = () => {
               variants={itemVariants}
             >
               I'm a Computer Science graduate passionate about creating beautiful, user-friendly web experiences. 
-              With a strong foundation in ReactJS, JavaScript, and responsive design, I build interfaces that function seamlessly across all devices.
+              With a strong foundation in MVC architecture, ReactJS, JavaScript, and UI/UX principles, I build interfaces that function seamlessly across all devices.
               As a recent graduate, I'm eager to grow across the full stack web development while currently focusing on frontend development. 
-              I have experience with both frontend and backend technologies including Node.js, Express.js, and Java. 
+              I have experience with both frontend and backend technologies including Node.js and Express.js. 
               I bring fresh perspectives, strong problem-solving skills, and enthusiasm for learning to every project.
             </motion.p>
             

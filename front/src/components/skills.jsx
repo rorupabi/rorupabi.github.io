@@ -23,15 +23,15 @@ const Skills = () => {
       <h2 className="my-10 text-center text-4xl text-stone-300">Tools & Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div>
-          <RiReactjsLine className="text-6xl hover:scale-120 duration-300 text-cyan-400" />
+          <RiReactjsLine className="text-6xl hover:scale-120 duration-300 text-cyan-400" alt="React"/>
         </div>
 
         <div className="p-4">
-          <DiHtml5 className="text-6xl hover:scale-120 duration-300 text-orange-500" />
+          <DiHtml5 className="text-6xl hover:scale-120 duration-300 text-orange-500" alt="HTML5"/>
         </div>
 
         <div className="p-0">
-          <RiCss3Fill className="text-6xl hover:scale-120 duration-300 text-blue-500" alt="Java"/>
+          <RiCss3Fill className="text-6xl hover:scale-120 duration-300 text-blue-500" alt="CSS3"/>
         </div>
 
         <div className="p-3">
@@ -51,11 +51,11 @@ const Skills = () => {
         </div>
 
         <div className="p-3">
-          <RiNextjsFill className="text-6xl hover:scale-120 duration-300 text-white" />
+          <RiNextjsFill className="text-6xl hover:scale-120 duration-300 text-white" alt="NextJs"/>
         </div>
 
         <div className="p-3">
-          <RiTailwindCssFill className="text-6xl hover:scale-120 duration-300 text-cyan-300" />
+          <RiTailwindCssFill className="text-6xl hover:scale-120 duration-300 text-cyan-300" alt="TailwindCSS"/>
         </div>
 
         <div className="p-3">

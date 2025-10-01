@@ -14,6 +14,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaJava } from 'react-icons/fa';
 import { FaVuejs } from "react-icons/fa";
+import { FaFigma } from "react-icons/fa6";
 import Daisyui  from "../assets/daisyui-removebg-preview.png";
 
 const Skills = () => {
@@ -30,19 +31,23 @@ const Skills = () => {
         </div>
 
         <div className="p-0">
-          <RiCss3Fill className="text-6xl hover:scale-120 duration-300 text-blue-500" />
+          <RiCss3Fill className="text-6xl hover:scale-120 duration-300 text-blue-500" alt="Java"/>
         </div>
 
         <div className="p-3">
-          <RiJavascriptFill className="text-6xl hover:scale-120 duration-300 text-yellow-400" />
+          <RiJavascriptFill className="text-6xl hover:scale-120 duration-300 text-yellow-400" alt="JavaScript"/>
         </div>
 
         <div>
-          <FaVuejs className="text-6xl hover:scale-120 duration-300 text-green-400" />
+          <FaVuejs className="text-6xl hover:scale-120 duration-300 text-green-400" alt="Vue.js" />
         </div>
 
         <div>
-          <FaJava className=" text-6xl hover:scale-120 duration-300 text-blue-400" />
+          <FaJava className=" text-6xl hover:scale-120 duration-300 text-blue-400" alt="Java" />
+        </div>
+
+        <div>
+          <FaFigma className=" text-6xl hover:scale-120 duration-300 text-pink-400" alt="Figma" />
         </div>
 
         <div className="p-3">

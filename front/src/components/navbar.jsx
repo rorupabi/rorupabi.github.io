@@ -183,7 +183,7 @@ const Navbar = () => {
             aria-label="Home"
           >
             <span className="font-bold text-xl md:text-2xl bg-gradient-to-r from-purple-400 via-pink-400 to-purple-500 bg-clip-text text-transparent">
-              Rouen
+              Rorupabi
             </span>
             <motion.div
               className="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-purple-400 to-pink-400"

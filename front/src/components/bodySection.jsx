@@ -65,7 +65,7 @@ const BodySection = () => {
   }
 
   return (
-    <section id='hero' className='min-h-screen flex items-center'>
+    <section id='about' className='min-h-screen flex items-center'>
       <div className='container mx-auto px-6'>
         <motion.div 
           className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-center'
@@ -92,21 +92,20 @@ const BodySection = () => {
             </motion.h1>
             
             <motion.h2 
-              className='bg-gradient-to-r from-indigo-300 to-violet-500 bg-clip-text text-3xl font-semibold text-transparent mb-6'
+              className='bg-gradient-to-r from-indigo-300 to-violet-500 bg-clip-text text-3xl font-semibold text-transparent mb-3'
               variants={itemVariants}
             >
               Aspiring Web Developer
             </motion.h2>
             
             <motion.p 
-              className='text-lg text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0 text-start'
+              className='text-lg text-gray-300 leading-relaxed mb-6 max-w-xl mx-auto lg:mx-0 text-start'
               variants={itemVariants}
             >
-              I'm a Computer Science graduate passionate about creating beautiful, user-friendly web experiences. 
-              With a strong foundation in MVC architecture, ReactJS, JavaScript, and UI/UX principles, I build interfaces that function seamlessly across all devices.
-              As a recent graduate, I'm eager to grow across the full stack web development while currently focusing on frontend development. 
-              I have experience with both frontend and backend technologies including Node.js and Express.js. 
-              I bring fresh perspectives, strong problem-solving skills, and enthusiasm for learning to every project.
+              I'm a Computer Science graduate passionate about creating interactive, user-friendly, and optimized web experiences. 
+              With a strong foundation in MVC architecture, React, JavaScript, and UI/UX principles, 
+              I craft interfaces that function seamlessly across all devices while maintaining excellent SEO performance. 
+              As a recent graduate, I'm eager to grow as a full-stack developer while currently excelling in frontend development. I have hands-on experience with modern technologies including React, Node.js, Express.js, and Laravel, enabling me to build complete web solutions. I bring fresh perspectives, strong problem-solving skills, and genuine enthusiasm for learning to every project I work on.   
             </motion.p>
             
             <motion.div 

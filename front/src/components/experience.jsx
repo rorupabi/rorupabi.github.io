@@ -73,7 +73,11 @@ const Experience = () => {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          Experience
+          <h2 className="mb-16 text-center text-4xl md:text-5xl font-bold">
+            <span className="bg-gradient-to-r from-yellow-500 to-pink-700 bg-clip-text text-transparent">
+              Experience
+            </span>
+          </h2>
         </motion.h2>
         
         <motion.div

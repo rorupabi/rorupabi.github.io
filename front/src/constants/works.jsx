@@ -2,7 +2,7 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
-import project5 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
 
 export const HERO_CONTENT = `I am a fresh graduate of Computer Science passionate about Programming. With a strong foundation in Web Development & Technology, I excel in creating and enhancing websites. My team management, problem-solving, and communication skills enable me to thrive in collaborative environments and tackle challenges effectively. Committed to continuous learning, I am very eager to expand my experience and share my knowledge to the industry.`;
 
@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     role: "Intern Web Developer",
     company: "CBZN Perspective Co.",
     description: `Led frontend development using Javascript, ReactJS, and TailwindCSS, creating accessible designs that strike a balance between functionality and aesthetics. Utilized a variety of npm packages with JavaScript to enhance interactivity and overall frontend performance. Prioritized responsive, mobile-first design and ensured cross-browser compatibility for optimal user experience. Consistently delivered high-quality solutions, earning trust and recognition for reliability and attention to detail.`,
-    technologies: ["Javascript", "React.js", "TailwindCSS", "NodeJS", "mongoDB", "Vite", "Git", "Axios"],
+    technologies: ["Javascript", "React.js", "TailwindCSS", "NodeJS", "mongoDB", "Vite", "Git", "Axios", "POSTMAN","Aiven"],
   },
   {
     year: "2023 - 2025",

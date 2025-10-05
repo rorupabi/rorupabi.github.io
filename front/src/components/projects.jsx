@@ -75,7 +75,7 @@ const Projects = () => {
         >
           <h2 className="mb-16 text-center text-4xl md:text-5xl font-bold">
             <span className="bg-gradient-to-r from-cyan-500 to-red-600 bg-clip-text text-transparent">
-              Project
+              Projects
             </span>
           </h2>
         </motion.h2>

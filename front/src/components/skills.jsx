@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { RiReactjsLine, RiCss3Fill, RiJavascriptFill, RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
+import { RiReactjsLine, RiCss3Fill, RiJavascriptFill, RiTailwindCssFill, RiNextjsFill, RiClaudeFill } from "react-icons/ri";
 import { DiHtml5 } from "react-icons/di";
 import { SiMysql, SiMongodb, SiVercel, SiLaravel } from "react-icons/si";
 import { FaNode, FaJava, FaVuejs, FaFigma } from "react-icons/fa";
@@ -18,6 +18,7 @@ const Skills = () => {
     { Icon: RiNextjsFill, color: "text-white", name: "Next.js" },
     { Icon: RiTailwindCssFill, color: "text-cyan-300", name: "Tailwind CSS" },
     { Icon: TbBrandFramerMotion, color: "text-purple-500", name: "Framer Motion" },
+    { Icon: RiClaudeFill, color: "text-orange-500", name: "Claude AI" },
     { Icon: SiLaravel, color: "text-red-500", name: "Laravel" },
     { Icon: SiMysql, color: "text-sky-700", name: "MySQL" },
     { Icon: SiMongodb, color: "text-green-600", name: "MongoDB" },

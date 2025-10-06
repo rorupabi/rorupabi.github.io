@@ -102,8 +102,10 @@ const BodySection = () => {
               className='text-lg text-gray-300 leading-relaxed mb-6 max-w-xl mx-auto lg:mx-0 text-start'
               variants={itemVariants}
             >
-              I'm a Computer Science graduate passionate about creating interactive, user-friendly web experiences. With a strong foundation in React, JavaScript, and UI/UX & SEO principles, I build optimized interfaces that work seamlessly across all devices. As a recent graduate, 
-              I have an hands-on experience in Web Development while excelling on Front-End development with growing Full-Stack capabilities using Back-End languages such as Node.js, Express.js, and Laravel.
+              I'm a Computer Science graduate passionate about creating interactive, user-friendly web experiences. With a strong foundation in React, JavaScript, and UI/UX & SEO principles, 
+              I build optimized interfaces that work seamlessly across all devices. As a recent graduate, 
+              I have an hands-on experience in Web Development while excelling on Front-End development with growing 
+              Full-Stack capabilities using Back-End languages such as Node.js, Express.js, and Laravel.
             </motion.p>
             
             <motion.div 

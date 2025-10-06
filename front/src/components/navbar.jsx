@@ -231,7 +231,7 @@ const Navbar = () => {
             {/* Social Icons */}
             <div className="flex gap-3 ml-4 pl-4 border-l border-white/10">
               <motion.a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/rouen-padilla/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, rotate: 5 }}
@@ -241,7 +241,7 @@ const Navbar = () => {
                 <RiLinkedinBoxFill size={22} />
               </motion.a>
               <motion.a
-                href="https://github.com"
+                href="https://github.com/rorupabi"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, rotate: -5 }}

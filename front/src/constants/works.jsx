@@ -48,7 +48,7 @@ export const EXPERIENCES = [
     technologies: ["Figma", "React Icons","Google Icons"],
   },
   {
-    year: "2023 - Present",
+    year: "2024 - Present",
     role: "Computer Building & Sales",
     company: "Freelancing",
     description: `Experienced in assembling and selling custom-built PCs 

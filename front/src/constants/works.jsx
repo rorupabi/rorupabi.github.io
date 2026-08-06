@@ -1,0 +1,129 @@
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
+
+export const HERO_CONTENT = `I am a fresh graduate of Computer Science passionate about Programming. With a strong foundation in Web Development & Technology, I excel in creating and enhancing websites. My team management, problem-solving, and communication skills enable me to thrive in collaborative environments and tackle challenges effectively. Committed to continuous learning, I am very eager to expand my experience and share my knowledge to the industry.`;
+
+export const ABOUT_TEXT = `I also excel in communication and enjoy engaging with diverse individuals. I believe that collaboration and different perspectives enhance creativity and lead to better project outcomes. I am committed to continuous learning and expanding my experience in the industry`;
+
+export const EXPERIENCES = [
+  {
+    year: "Nov 2025 - Present",
+    role: "Lead Web Content Management System Developer",
+    url: "https://rockbirdmedia.com/",
+    company: "Rockbird Media",
+    description: `A B2B-Bespoke website. Built for digital experiences where design, content, and technology come together. Specializing in developing scalable websites with Wix Studio, WordPress, and modern front-end technologies, delivering responsive, user-centered solutions that support marketing strategy and business growth. Focused on transforming complex requirements into intuitive, high-performing web experiences through thoughtful UI/UX execution, CMS architecture, custom development, and performance optimization. Collaborating across design, branding, and marketing teams to create seamless digital products that are accessible and built for long-term scalability.`,
+    technologies: ["GoDaddy", "Wix Studio", "Wix Velo", "WordPress", "Elementor", "HTML5", "CSS3", "JavaScript", "Performance Optimization", "CMS Architecture"],
+  },
+  {
+    year: "May 2026 - Present",
+    role: "Content Management System Developer",
+    url: "https://topsincph.org/",
+    company: "Tahanan Outreach Projects and Services (TOPS)",
+    description: `Leading the development and management of topsincph.org, a WordPress-Elementor powered platform built to serve the organization's mission. Overseeing the full technical lifecycle from custom theme and plugin development to server infrastructure and domain management. Core responsibilities include architecting and maintaining the WordPress CMS using HTML, CSS, PHP, JavaScript, and MySQL, managing DNS configuration and domain services via GoDaddy, deploying and optimizing hosting infrastructure on Hostinger, and ensuring site performance, security, and scalability.`,
+    technologies: ["WordPress", "PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "DNS Management", "Web Hosting", "Elementor", "GoDaddy", "Hostinger", "Performance Optimization", "Rank Math SEO", "On-SEO"],
+  },
+  {
+    year: "2025",
+    role: "Intern Web Developer",
+    company: "CBZN Perspective Co.",
+    description: `Led frontend development using Javascript, ReactJS, and TailwindCSS, creating accessible designs that strike a balance between functionality and aesthetics. Utilized a variety of npm packages with JavaScript to enhance interactivity and overall frontend performance. Prioritized responsive, mobile-first design and ensured cross-browser compatibility for optimal user experience. Consistently delivered high-quality solutions, earning trust and recognition for reliability and attention to detail.`,
+    technologies: ["Javascript", "React.js", "TailwindCSS", "NodeJS", "mongoDB", "Vite", "Git", "Axios", "POSTMAN","Aiven"],
+  },
+  {
+    year: "2024 - 2025",
+    role: "Full Stack Developer",
+    company: "University Timetabling Website (CEU Makati) Thesis",
+    description: `Designed and developed a responsive website using the MERN stack and Vanilla JavaScript, ensuring smooth integration between frontend and backend systems. Leveraged MySQL databases for efficient data handling and implemented responsive layouts with TailwindCSS, custom sizing, and adaptive breakpoints. Integrated APIs using Axios to give a faster and easier system communication and delivered the project on time, maintaining high performance and functionality standards throughout.`,
+    technologies: ["HTML", "CSS", "ReactJS", "JavaScript", "MySQL", "Vite", "Git", "Axios", "XAMPP", "POSTMAN"],
+  },
+  {
+    year: "2024",
+    role: "Web Designer/Figma Designer",
+    description: `Crafted minimalist, user-focused designs for two web development projects using Figma, emphasizing modern aesthetics and intuitive user experiences. Transformed creative concepts into polished, visually engaging designs that enhanced overall usability and appeal.`,
+    technologies: ["Figma", "React Icons","Google Icons"],
+  },
+  {
+    year: "2023 - Present",
+    role: "Computer Building & Sales",
+    company: "Freelancing",
+    description: `Experienced in assembling and selling custom-built PCs 
+    across various form factors, including Small Form Factor (SFF), Micro-ATX (mATX),
+     and ATX, tailored to diverse performance needs. Built and configured systems using 
+     both Intel and AMD Ryzen platforms, optimizing for gaming, productivity, and 
+     professional workloads. Developed strong expertise in selecting high-quality components for both performance-oriented and budget-conscious builds. 
+     Well-versed in CPUs, GPUs, and monitor types including FHD, QHD, and OLED.`,
+  },
+];
+
+export const PROJECTS = [
+  {
+    year: "Nov 2025 - Present",
+    image: project6,
+    role: "Lead Web Content Management System Developer",
+    url: "https://rockbirdmedia.com/",
+    company: "Rockbird Media",
+    description: `A B2B-Bespoke website. Built for digital experiences where design, content, and technology come together. Specializing in developing scalable websites with Wix Studio, WordPress, and modern front-end technologies, delivering responsive, user-centered solutions that support marketing strategy and business growth. Focused on transforming complex requirements into intuitive, high-performing web experiences through thoughtful UI/UX execution, CMS architecture, custom development, and performance optimization. Collaborating across design, branding, and marketing teams to create seamless digital products that are accessible and built for long-term scalability.`,
+    technologies: ["GoDaddy", "Wix Studio", "Wix Velo", "WordPress", "Elementor", "HTML5", "CSS3", "JavaScript", "Performance Optimization", "CMS Architecture"],
+  },
+  {
+    year: "May 2026 - Present",
+    image: project7,
+    role: "Content Management System Developer",
+    url: "https://topsincph.org/",
+    company: "Tahanan Outreach Projects and Services (TOPS)",
+    description: `Leading the development and management of topsincph.org, a WordPress-Elementor powered platform built to serve the organization's mission. Overseeing the full technical lifecycle from custom theme and plugin development to server infrastructure and domain management. Core responsibilities include architecting and maintaining the WordPress CMS using HTML, CSS, PHP, JavaScript, and MySQL, managing DNS configuration and domain services via GoDaddy, deploying and optimizing hosting infrastructure on Hostinger, and ensuring site performance, security, and scalability.`,
+    technologies: ["WordPress", "PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "DNS Management", "Web Hosting", "Elementor", "GoDaddy", "Hostinger", "Performance Optimization", "Rank Math SEO", "On-SEO"],
+  },
+  {
+    title: "University Timetabling Website (CEU Makati)",
+    role: "Full Stack Developer",
+    image: project1,
+    description:
+      "An automated timetabling system for Centro Escolar University Makati using backtracking algorithms to efficiently allocate classrooms, faculty, and schedules. Reduces scheduling conflicts and administrative workload with an intuitive interface for easy timetable management.",
+    technologies: ["HTML", "CSS3", "React","JavaScript", "TailwindCSS", "Node.js", "MySQL", "Aiven", "Git", "Github Desktop"],
+    url: "https://ease-scheduler.vercel.app/"
+  },
+  {
+    title: "CBZN Co. Daily Time Record Web Application",
+    role: "Front-End / Full Stack Developer",
+    image: project2,
+    description:
+      "A comprehensive Daily Time Record (DTR) application for CBZN Perspective featuring automated logging, manager approval workflows, and detailed analytics. Supports both in-office and remote work with visual dashboards for productivity insights.",
+    technologies: ["HTML", "CSS3", "ReactJS","JavaScript", "TailwindCSS", "MySQL", "Node.js","Digital Ocean", "Git", "Github Desktop"],
+  },
+  {
+    title: "Running for Change",
+    image: project3,
+    description:
+      "Running for Change is a community-driven initiative that aims to improve suburban living by reducing car dependency and encouraging active transportation through awareness, events, and sustainable programs.",
+    technologies: ["HTML", "CSS3","JavaScript", "Vercel", "Git"],
+    url: "https://running-for-change.vercel.app/"
+  },
+  {
+    title: "Burger Buddy",
+    image: project4,
+    description:
+      "An interactive restaurant website with online ordering, real-time menu updates, and program integration, mainly focusing on frontend development.",
+    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS","JavaScript"],
+    url: "https://food-app-project-six.vercel.app/"
+  },
+  {
+    title: "24VR Page",
+    image: project5,
+    description:
+      "A personal portfolio website showcasing projects and skills. Subscription Based website, mainly focusing on frontend development.",
+    technologies: ["HTML", "CSS3", "ReactJS", "TailwindCSS","JavaScript"],
+    url: "https://24vrproj.vercel.app/"
+  },
+];
+
+export const CONTACT = {
+  address: "Taguig, Metro Manila",
+  phoneNo: "+63 976 593 9867",
+  email: "rouenpads@gmail.com",
+};

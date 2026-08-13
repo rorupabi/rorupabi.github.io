@@ -62,7 +62,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    year: "Nov 2025 - Present",
+    year: "Dec 2025 - Present",
     image: project6,
     role: "Lead Web Content Management System Developer",
     url: "https://rockbirdmedia.com/",

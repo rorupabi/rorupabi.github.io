@@ -12,7 +12,7 @@ export const ABOUT_TEXT = `I also excel in communication and enjoy engaging with
 
 export const EXPERIENCES = [
   {
-    year: "Nov 2025 - Present",
+    year: "Dec 2025 - Present",
     role: "Lead Web Content Management System Developer",
     url: "https://rockbirdmedia.com/",
     company: "Rockbird Media",

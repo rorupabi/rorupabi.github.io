@@ -5,6 +5,7 @@ import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
 import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.png";
 
 export const HERO_CONTENT = `I am a fresh graduate of Computer Science passionate about Programming. With a strong foundation in Web Development & Technology, I excel in creating and enhancing websites. My team management, problem-solving, and communication skills enable me to thrive in collaborative environments and tackle challenges effectively. Committed to continuous learning, I am very eager to expand my experience and share my knowledge to the industry.`;
 
@@ -95,6 +96,14 @@ export const PROJECTS = [
     description:
       "A comprehensive Daily Time Record (DTR) application for CBZN Perspective featuring automated logging, manager approval workflows, and detailed analytics. Supports both in-office and remote work with visual dashboards for productivity insights.",
     technologies: ["HTML", "CSS3", "ReactJS","JavaScript", "TailwindCSS", "MySQL", "Node.js","Digital Ocean", "Git", "Github Desktop"],
+  },
+  {
+    title: "Lap Trip - MotoCar Rental Website",
+    image: project8,
+    description:
+      "Lap Trip is an online rental platform for cars, scooters and big bikes in Taguig, Metro Manila. Customers browse available vehicles, reserve one for specific dates and times, pay a reservation fee, and upload their requirements from their phone. They don’t need to visit the shop or message back and forth to set up a rental.",
+    technologies: ["Next.js 16 and React 19, PostgreSQL with Drizzle ORM, and Supabase (Auth, database, and file storage), hosted on Vercel, Claude Code, bcryptjs"],
+    url: "https://lap-trip.vercel.app/"
   },
   {
     title: "Running for Change",

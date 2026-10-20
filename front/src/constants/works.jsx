@@ -81,6 +81,14 @@ export const PROJECTS = [
     technologies: ["WordPress", "PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "DNS Management", "Web Hosting", "Elementor", "GoDaddy", "Hostinger", "Performance Optimization", "Rank Math SEO", "On-SEO"],
   },
   {
+    title: "Lap Trip - MotoCar Rental Website",
+    image: project8,
+    description:
+      "Lap Trip is an online rental platform for cars, scooters and big bikes in Taguig, Metro Manila. Customers browse available vehicles, reserve one for specific dates and times, pay a reservation fee, and upload their requirements from their phone. They don’t need to visit the shop or message back and forth to set up a rental.",
+    technologies: ["Next.js 16 and React 19, PostgreSQL with Drizzle ORM, and Supabase (Auth, database, and file storage), hosted on Vercel, Claude Code, bcryptjs"],
+    url: "https://lap-trip.vercel.app/"
+  },
+  {
     title: "University Timetabling Website (CEU Makati)",
     role: "Full Stack Developer",
     image: project1,
@@ -96,14 +104,6 @@ export const PROJECTS = [
     description:
       "A comprehensive Daily Time Record (DTR) application for CBZN Perspective featuring automated logging, manager approval workflows, and detailed analytics. Supports both in-office and remote work with visual dashboards for productivity insights.",
     technologies: ["HTML", "CSS3", "ReactJS","JavaScript", "TailwindCSS", "MySQL", "Node.js","Digital Ocean", "Git", "Github Desktop"],
-  },
-  {
-    title: "Lap Trip - MotoCar Rental Website",
-    image: project8,
-    description:
-      "Lap Trip is an online rental platform for cars, scooters and big bikes in Taguig, Metro Manila. Customers browse available vehicles, reserve one for specific dates and times, pay a reservation fee, and upload their requirements from their phone. They don’t need to visit the shop or message back and forth to set up a rental.",
-    technologies: ["Next.js 16 and React 19, PostgreSQL with Drizzle ORM, and Supabase (Auth, database, and file storage), hosted on Vercel, Claude Code, bcryptjs"],
-    url: "https://lap-trip.vercel.app/"
   },
   {
     title: "Running for Change",
